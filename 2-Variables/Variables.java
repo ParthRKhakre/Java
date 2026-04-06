@@ -18,7 +18,7 @@ public class Variables {
 
         // Floating Point
         float f = 9.21f;
-        // Decimal Values are default float in Java Due to Optimization in Modern
+        // Decimal Values are default double in Java Due to Optimization in Modern
         // Compilers
         // float is single precision
         double d = 9.99182; // Double is double precision 
