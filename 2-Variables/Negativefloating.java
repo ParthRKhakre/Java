@@ -25,5 +25,10 @@ public class Negativefloating {
         i = (byte) a; // Casting is required
         System.out.println("int to byte " + i);
 
+        // long to int
+        long big = 100000;
+        int d;
+        d = (int) big;
+        System.out.println("long to int "+d);
     }
 }
