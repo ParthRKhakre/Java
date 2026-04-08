@@ -1,4 +1,4 @@
-public class Operator {
+public class ArithematicOperator {
     public static void main(String[]args){
         // Arithematic Operator: + - * / % += -= *= /= %= ++ --
         int a = 10;
@@ -25,13 +25,18 @@ public class Operator {
         i--;
         System.out.println(i);
 
-        // Pre Increment and Post Increment
+        // Pre Increment and Post Increment/Decrement
         int j = 9;
         
         j++; // postfix increment
-        ++j; // prefic increment
-        j--;
-        --j;
+        ++j; // prefix increment
+        
+        // j = 11
 
+        int k = j++; // k = j;  j = j + 1;
+        System.out.println(j +","+ k);
+
+        int l = ++j; // l = j + 1;
+       System.out.println(j+","+l);
     }
 }
