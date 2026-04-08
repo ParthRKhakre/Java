@@ -23,6 +23,6 @@ public class Relational {
         boolean h = (a >= b);
         System.out.println(h); // true
 
-    }
+    }  
     
 }
