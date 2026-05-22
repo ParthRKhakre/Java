@@ -35,9 +35,17 @@ public class MultiDimensional {
        // [{1,2},
        // {1,2,3,4,5},
        // {1,2,3,4,5,6,7,8,9}]
+       System.out.println("--------------------------");
 
        int Ages[][] = {{1,2,3},
                        {3,4,5},
                        {5,6,7}};
+                      
+        for(int i = 0; i < Ages.length;i++){
+            for(int j = 0; j <Ages[0].length;j++){
+                System.out.print(Ages[i][j]+" ");
+            }
+            System.out.println();
+        }               
     }
 }
